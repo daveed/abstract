@@ -5,5 +5,11 @@
     This site allows our users to ask questions and crowdsource solutions
   </h2>
 
-  <%= link_to "Ask a question now!", '#', class: "btn btn-lg btn-primary" %>
+  <%= link_to "Ask a question now!", new_discussion_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<div class="row">
+  <% @discussions.each do |discussion| %>
+    <p><%= link_to discussion.title, discussion_path(discussion) %><p>
+  <% end %>
 </div>
