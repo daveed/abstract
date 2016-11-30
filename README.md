@@ -7,8 +7,6 @@ questions and respond with further discussion or potential answers.
 
 ## Installation
 
-1. Clone the repo.
-2. Run `bundle install`.
-3. Run `rake db:create`.
-4. Run `rake db:migrate`.
-5. Run `rails s` to start the web server.
+1. Download and Install [Docker for Mac](https://download.docker.com/mac/stable/Docker.dmg)
+2. Clone the repo
+3. Run it `docker-compose up`
